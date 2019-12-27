@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Verdana,  sans-serif;
+  font-size: 11pt;
+  margin: 0;
+  background-color: #0fbb15;
+  color: black;
+}
+
+.image {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 95%;
+}
+
+#site-title {
+    margin: 10px;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #195515;
+    font-size: 50px;
+}
+
+#title {
+    margin: 20% 10% 10% 10%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#text {
+    margin: 3% 10% 3% 10%;
+}
+
+.form{
+    width: 40%;
+    background: #ddc815;
+    margin: 10% 30% 10% 30%;
+    border-radius: 20px; 
+}
+
+#button {	  
+    margin: 3% 10% 3% 10%;
+font-size: 20px; 
+    color: #f83b3b;
+	border: 3px solid;
+border-radius: 5px; 
+    background: white;
+	cursor: pointer;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 20px; 
+    background-color: rgba(0, 0, 100, 0.5);
+    text-align: center;
+    margin: 5% 10% 5% 20%;
+}
+
+#free {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+#down {
+    text-align: center;
+}
+

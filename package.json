@@ -1,0 +1,38 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "DataBase project",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=3001 node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iluysha/DataBase.git"
+  },
+  "author": "Ilya Mykhailichenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iluysha/DataBase/issues"
+  },
+  "homepage": "https://github.com/Iluysha/DataBase#readme",
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.0.0",
+    "gulp": "^4.0.2",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.3"
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="..\set\index.css" type="text/css">
+  <title>Poizd.ua</title>
+ </head>
+ 
+ <body>
+
+  <div class="image">
+   <img src="..\img\1.jpg" width = 100% alt = "поїзд" />
+   <h1 id="site-title">Poizd.ua</h1>
+  </div>
+
+  <h2 id = "down">Сервіс для пошуку квитків на поїзд.</h2>
+
+  <div class="form">
+   <h3 id = "title">Знайти квиток:</h3>
+   <form method="post">
+   <h3 id = "text" >Звідки:</h3>
+    <input id = "text" type="text" size="40" name="from">
+   <h3 id = "text" >Куди:</h3>
+    <input id = "text" type="text" size="40" name="to">
+   <button id = "button" type="submit">Знайти</button>
+   </form>
+   <% if(places[0] != null){ %>
+   <h3 id = "text">Наявні квитки:</h3>
+
+    <table border="1" cellpadding="4" cellspacing="0">
+     <tr>
+      <% if(places[0].free){%><td id = "free">1</td><%} else{%><td>1</td><%}%>
+      <% if(places[1].free){%><td id = "free">2</td><%} else{%><td>2</td><%}%>
+      <td rowspan="20"></td>
+      <% if(places[2].free){%><td id = "free">3</td><%} else{%><td>3</td><%}%>
+      <% if(places[3].free){%><td id = "free">4</td><%} else{%><td>4</td><%}%>
+     <tr>
+     <tr>
+      <% if(places[4].free){%><td id = "free">5</td><%} else{%><td>5</td><%}%>
+      <% if(places[5].free){%><td id = "free">6</td><%} else{%><td>6</td><%}%>
+      <% if(places[6].free){%><td id = "free">7</td><%} else{%><td>7</td><%}%>
+      <% if(places[7].free){%><td id = "free">8</td><%} else{%><td>8</td><%}%>
+     <tr>
+     <tr>
+      <% if(places[8].free){%><td id = "free">9</td><%} else{%><td>9</td><%}%>
+      <% if(places[9].free){%><td id = "free">10</td><%} else{%><td>10</td><%}%>
+      <% if(places[10].free){%><td id = "free">11</td><%} else{%><td>11</td><%}%>
+      <% if(places[11].free){%><td id = "free">12</td><%} else{%><td>12</td><%}%>
+     <tr>
+     <tr>
+      <% if(places[12].free){%><td id = "free">13</td><%} else{%><td>13</td><%}%>
+      <% if(places[13].free){%><td id = "free">14</td><%} else{%><td>14</td><%}%>
+      <% if(places[14].free){%><td id = "free">15</td><%} else{%><td>15</td><%}%>
+      <% if(places[15].free){%><td id = "free">16</td><%} else{%><td>16</td><%}%>
+     <tr>
+     <tr>
+      <% if(places[16].free){%><td id = "free">17</td><%} else{%><td>17</td><%}%>
+      <% if(places[17].free){%><td id = "free">18</td><%} else{%><td>18</td><%}%>
+      <% if(places[18].free){%><td id = "free">19</td><%} else{%><td>19</td><%}%>
+      <% if(places[19].free){%><td id = "free">20</td><%} else{%><td>20</td><%}%>
+     <tr>
+          <tr>
+      <% if(places[20].free){%><td id = "free">21</td><%} else{%><td>21</td><%}%>
+      <% if(places[21].free){%><td id = "free">22</td><%} else{%><td>22</td><%}%>
+      <% if(places[22].free){%><td id = "free">23</td><%} else{%><td>23</td><%}%>
+      <% if(places[23].free){%><td id = "free">24</td><%} else{%><td>24</td><%}%>
+     <tr>
+     <tr>
+      <% if(places[24].free){%><td id = "free">25</td><%} else{%><td>25</td><%}%>
+      <% if(places[25].free){%><td id = "free">26</td><%} else{%><td>26</td><%}%>
+      <% if(places[26].free){%><td id = "free">27</td><%} else{%><td>27</td><%}%>
+      <% if(places[27].free){%><td id = "free">28</td><%} else{%><td>28</td><%}%>
+     <tr>
+     <tr>
+      <% if(places[28].free){%><td id = "free">29</td><%} else{%><td>29</td><%}%>
+      <% if(places[29].free){%><td id = "free">30</td><%} else{%><td>30</td><%}%>
+      <% if(places[30].free){%><td id = "free">31</td><%} else{%><td>31</td><%}%>
+      <% if(places[31].free){%><td id = "free">32</td><%} else{%><td>32</td><%}%>
+     <tr>
+     <tr>
+      <% if(places[32].free){%><td id = "free">33</td><%} else{%><td>33</td><%}%>
+      <% if(places[33].free){%><td id = "free">34</td><%} else{%><td>34</td><%}%>
+      <% if(places[34].free){%><td id = "free">35</td><%} else{%><td>35</td><%}%>
+      <% if(places[35].free){%><td id = "free">36</td><%} else{%><td>36</td><%}%>
+     <tr>
+     <tr>
+      <% if(places[36].free){%><td id = "free">37</td><%} else{%><td>37</td><%}%>
+      <% if(places[37].free){%><td id = "free">38</td><%} else{%><td>38</td><%}%>
+      <% if(places[38].free){%><td id = "free">39</td><%} else{%><td>39</td><%}%>
+      <% if(places[39].free){%><td id = "free">40</td><%} else{%><td>40</td><%}%>
+     <tr>
+    </table>
+    <br>
+    <%}%>
+ </div> 
+
+  <hr align="right" size="3" color="#0000dd" />
+  
+  <h4 id = "down">Виконав: Михайліченко Ілля, ІП-73.</h4>
+  
+ </body>
+</html>
