@@ -12,5 +12,6 @@ module.exports = () => {
       .once('open', () => resolve(mongoose.connections[0]));
 
     mongoose.connect(config.MONGO_URL, { useUnifiedTopology: true, useNewUrlParser: true });
+    mongoose.connection.close();
   });
 };
